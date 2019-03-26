@@ -1,3 +1,5 @@
+# To buld the below run: docker build .
+# To run type: docker run -p 8080:8080 <image_id>
 # Use Existing Image as a base
 FROM node:current-alpine
 
