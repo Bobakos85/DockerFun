@@ -1,9 +1,12 @@
 version: '3'
 services:
   redis-server:
+    container_name: 'my_redis_server'
+    restart: on-failure
     image: 'redis'
   node-app:
     container_name: 'my_application_node'
+    restart: always
     build: .
     ports:
       - "8081:8081"
