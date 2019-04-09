@@ -2,7 +2,7 @@
 Initial Project to learn a bit about containers
 
 # Folder Structure
-
+```bash
 .
 ├── DockerVisits
 │   ├── Dockerfile
@@ -33,3 +33,4 @@ Initial Project to learn a bit about containers
             ├── index.js
             ├── logo.svg
             └── serviceWorker.js
+```
