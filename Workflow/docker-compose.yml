@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+      container_name: 'react_example_server'
+      build:
+        context: frontend
+        dockerfile: ../Dockerfile.dev
+      ports:
+        - "8080:8081"
+      volumes:
+        - /home/app/node_modules
+        - ./frontend:/home/app
