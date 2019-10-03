@@ -1,7 +1,8 @@
-Description:
+# Description
 This will install Prometheus and Grafana to a Kubernetes cluster
 
-Commands:
+## Commands
+
 Create Ingress
 ```bash
 $ kubectl apply -f ingress-service.yaml
@@ -18,9 +19,10 @@ Install Grafana
 ```bash
 $ kubectl apply -f grafana
 ```
+## Proxy
 Ensure you expose a proxy:
 
-Minikube
+**Minikube**
 
 ```bash
 $ minikube addons enable ingress
@@ -30,7 +32,7 @@ Change your hosts file and add the ip from the below
 $ minikube ip
 ```
 
-Docker
+**Docker**
 
 Get the pod names
 ```bash
