@@ -6,17 +6,33 @@ Initial Project to learn a bit about containers
 .
 ├── DockerVisits
 │   ├── Dockerfile
+│   ├── ReadMe.txt
 │   ├── Visits
 │   │   ├── index.js
 │   │   └── package.json
 │   └── docker-compose.yml
+├── Monitoring
+│   ├── README.md
+│   ├── grafana
+│   │   ├── grafana-claim-persistentvolumeclaim.yaml
+│   │   ├── grafana-deployment.yaml
+│   │   └── grafana-ip-service.yaml
+│   ├── ingress.yaml
+│   └── prometheus
+│       ├── config-map.yaml
+│       ├── prometheus-deployment.yaml
+│       └── prometheus-ip-service.yaml
+├── README.md
 ├── SimpleWeb
 │   ├── Dockerfile
+│   ├── ReadMe.txt
 │   └── SimpleWeb
 │       ├── index.js
 │       └── package.json
 └── Workflow
     ├── Dockerfile.dev
+    ├── ReadMe.txt
+    ├── docker-compose.yml
     └── frontend
         ├── README.md
         ├── package-lock.json
