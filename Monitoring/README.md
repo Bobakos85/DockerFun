@@ -8,7 +8,7 @@ $ kubectl apply -f ingress-service.yaml
 ```
 See the ingress rules
 ```bash
-kubectl describe ing
+$ kubectl describe ing
 ```
 Install Prometheus
 ```bash
